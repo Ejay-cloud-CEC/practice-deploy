@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - runs: echo "Checked out code"
-      - runs: ls -la 
-      - runs: echo "If u have aws, here im doinf aws s3"
-      - runs: echo "Deploy Success"
+      - run: echo "Checked out code"
+      - run: ls -la
+      - run: echo "If u have aws, here im doing aws s3"
+      - run: echo "Deploy Success"
