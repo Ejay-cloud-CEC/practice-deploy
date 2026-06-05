@@ -1,0 +1,11 @@
+name: Practice Deploy
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - runs: echo "Checked out code"
+      - runs: ls -la 
+      - runs: echo "If u have aws, here im doinf aws s3"
+      - runs: echo "Deploy Success"
